@@ -1,0 +1,57 @@
+:root {
+  --darkCyan: #19a2ae;
+  --veryDarkBlue: #2d3248;
+  --darkGrayishBlue: #6a6f81;
+  --darkGray: #969696;
+}
+//font-family: 'Kumbh Sans', sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--darkCyan);
+  background-image: url("images/bg-pattern-top.svg");
+  // background-position: 50% 50%;
+}
+html {
+  font-family: "Kumbh Sans", sans-serif;
+}
+.container {
+  background-color: #fff;
+  margin: 30% auto;
+  width: 90%;
+  text-align: center;
+  border-radius: 16px;
+}
+.half {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  background-image: url("images/bg-pattern-card.svg");
+  height: 140px;
+}
+.lowerHalf {
+  position: relative;
+  top: -51px;
+}
+span {
+  font-size: 20px;
+  font-weight: bold;
+}
+p {
+  font-size: 12px;
+}
+img {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  display: inline-block;
+}
+
+.container .box {
+  background-color: #fff;
+  padding-top: 30px;
+  display: inline-block;
+  width: 25%;
+}
