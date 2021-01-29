@@ -15,15 +15,17 @@ body {
   background-color: var(--darkCyan);
   background-image: url("images/bg-pattern-top.svg"),
     url("images/bg-pattern-bottom.svg");
-  background-position: top -350px left -400px top 400px left 545px;
+  background-position: top -200px left -224px, bottom -112px right -197px;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 html {
   font-family: "Kumbh Sans", sans-serif;
 }
 .container {
   background-color: #fff;
-  margin: 30% auto;
-  width: 90%;
+  margin: 34% 15px;
+  // width: 90%;
   text-align: center;
   border-radius: 16px;
 }
