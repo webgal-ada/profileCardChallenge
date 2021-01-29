@@ -13,8 +13,9 @@
 }
 body {
   background-color: var(--darkCyan);
-  background-image: url("images/bg-pattern-top.svg");
-  // background-position: 50% 50%;
+  background-image: url("images/bg-pattern-top.svg"),
+    url("images/bg-pattern-bottom.svg");
+  background-position: top -350px left -400px top 400px left 545px;
 }
 html {
   font-family: "Kumbh Sans", sans-serif;
@@ -33,15 +34,28 @@ html {
   height: 140px;
 }
 .lowerHalf {
+  border-bottom: 1px solid var(--darkGray);
   position: relative;
   top: -51px;
 }
+.age {
+  color: var(--darkGray);
+  font-weight: normal;
+}
 span {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
+h2 + p {
+  margin: 13px auto 20px;
+}
 p {
-  font-size: 12px;
+  font-size: 14px;
+  color: var(--darkGray);
+}
+.box > p {
+  font-size: 11px;
+  letter-spacing: 1.5px;
 }
 img {
   border-radius: 50%;
@@ -51,7 +65,8 @@ img {
 
 .container .box {
   background-color: #fff;
-  padding-top: 30px;
   display: inline-block;
-  width: 25%;
+  position: relative;
+  bottom: 12px;
+  width: 28%;
 }
